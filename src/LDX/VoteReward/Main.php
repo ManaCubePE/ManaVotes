@@ -112,7 +112,7 @@ class Main extends PluginBase {
       return true;
     }
     if($multiplier < 1) {
-      $player->sendMessage("please vote on website!");
+      $player->sendMessage("§4[Invalid Usage] §rPlease vote us on our website vote!!!");
       return true;
     }
     $clones = [];
