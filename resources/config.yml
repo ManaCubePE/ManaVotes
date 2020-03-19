@@ -14,7 +14,7 @@
 # EssentialsPE style color codes can be used in the message and commands.
 
 # Message to broadcast to the server when a player votes.
-Message: "&0[&eKP&0] &b{USERNAME} &5has voted and received: &61 Mythic Crate, &e2 Common Crate, &63 Vote crate! &l&bAND 60K&a$ &r&fIn Game!"
+Message: "&0[&eKP&0] &b{USERNAME} &5has voted and received: &61 Galaxy Crate, &e2 Eclipse Crate, &63 Vote crate! &l&bAND 60K&a$ &r&fIn Game!"
 
 # List of items to give players when they vote. Format: ID:Damage:Amount
 Items:
@@ -24,9 +24,9 @@ Items:
 
 # List of commands to execute when a player votes.
 Commands:
-  - "key Mythic {USERNAME} 1"
-  - "key Common {USERNAME} 2"
+  - "key Galaxy {USERNAME} 1"
+  - "key Eclipse {USERNAME} 2"
   - "key Vote {USERNAME} 3"
-  - "givemoney {USERNAME} 60000"
+  - "givemoney {USERNAME} 10000"
   - "tell {USERNAME} &6We appreciate &eyour support.  don't forget &6to vote again tomorrow &e:D"
   
